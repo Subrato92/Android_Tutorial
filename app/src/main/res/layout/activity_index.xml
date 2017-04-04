@@ -39,7 +39,8 @@
         android:id="@+id/Unit_05"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/ch05" />
+        android:text="@string/ch05"
+        android:onClick="toCourse"/>
 
 </LinearLayout>
 

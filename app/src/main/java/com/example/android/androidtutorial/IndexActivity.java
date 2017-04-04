@@ -36,6 +36,10 @@ public class IndexActivity extends AppCompatActivity {
                 activity = new Intent(this, Unit04.class);
                 startActivity(activity);
                 break;
+            case "5. Input Controls-Buttons":
+                activity = new Intent(this, Unit05.class);
+                startActivity(activity);
+                break;
             default:
                 break;
         }
