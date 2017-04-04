@@ -32,6 +32,10 @@ public class IndexActivity extends AppCompatActivity {
                 activity = new Intent(this, Unit03.class);
                 startActivity(activity);
                 break;
+            case "4. Send Data to An Activity":
+                activity = new Intent(this, Unit04.class);
+                startActivity(activity);
+                break;
             default:
                 break;
         }
