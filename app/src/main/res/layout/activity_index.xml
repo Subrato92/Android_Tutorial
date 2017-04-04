@@ -25,7 +25,8 @@
         android:id="@+id/Unit_03"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/ch03" />
+        android:text="@string/ch03"
+        android:onClick="toCourse"/>
 
     <Button
         android:id="@+id/Unit_04"

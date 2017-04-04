@@ -28,6 +28,10 @@ public class IndexActivity extends AppCompatActivity {
                 activity = new Intent(this, Unit02.class);
                 startActivity(activity);
                 break;
+            case "3. Create Simple User Interface":
+                activity = new Intent(this, Unit03.class);
+                startActivity(activity);
+                break;
             default:
                 break;
         }
