@@ -24,6 +24,10 @@ public class IndexActivity extends AppCompatActivity {
                 activity = new Intent(this, Unit01.class);
                 startActivity(activity);
                 break;
+            case "2. Working With Multiple Activities":
+                activity = new Intent(this, Unit02.class);
+                startActivity(activity);
+                break;
             default:
                 break;
         }
