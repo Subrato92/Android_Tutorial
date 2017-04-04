@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">Android Tutorial</string>
+    <string name="app_name">HelloWorld</string>
+    <string name="ch01">1. Hello World Application</string>
+    <string name="ch02">2. Working With Multiple Activities</string>
+    <string name="ch03">3. Create Simple User Interface</string>
+    <string name="ch04">4. Send Data to An Activity</string>
+
+    <string name="ch05">5. Input Controls-Buttons</string>
+    <string name="ch05_description">There Are Three Kinds Of Buttons >> </string>
+    <string name="ch05_tv_b1">1. Just Button</string>
+    <string name="ch05_tv_b2">2. Image Button</string>
+    <string name="ch05_tv_b3">3. Combined Form</string>
+    <string name="ch05_b1">BUTTON</string>
+    <string name="ch05_b3">Click Me</string>
+
 </resources>
