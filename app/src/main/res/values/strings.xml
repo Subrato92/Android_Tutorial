@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">Android Tutorial</string>
 
-    <string name="ch01">1. Hello World Application</string>
-    <string name="ch02">2. Working With Multiple Activities</string>
-    <string name="ch03">3. Create Simple User Interface</string>
+    <string name="ch01">Hello World Application</string>
+    <string name="ch02">Working With Multiple Activities</string>
+    <string name="ch03">Create Simple User Interface</string>
     <string name="ch04">4. Send Data to An Activity</string>
 
     <string name="ch05">5. Input Controls-Buttons</string>
@@ -40,4 +40,8 @@
     <string name="ch06_cb03">Android</string>
     <string name="ch06_cb04">Data Analytics</string>
     <string name="sbmt">Submit</string>
+
+    <string name="ch07">7. List View [With Default Layout And Adaptor]</string>
+    <string name="ch07_intro">Below is the list of Algorithm topics >></string>
+
 </resources>

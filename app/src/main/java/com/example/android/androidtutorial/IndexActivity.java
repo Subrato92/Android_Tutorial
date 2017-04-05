@@ -20,15 +20,15 @@ public class IndexActivity extends AppCompatActivity {
         course = ((Button) view).getText().toString();
 
         switch (course) {
-            case "1. Hello World Application":
+            case "Hello World Application":
                 activity = new Intent(this, Unit01.class);
                 startActivity(activity);
                 break;
-            case "2. Working With Multiple Activities":
+            case "Working With Multiple Activities":
                 activity = new Intent(this, Unit02.class);
                 startActivity(activity);
                 break;
-            case "3. Create Simple User Interface":
+            case "Create Simple User Interface":
                 activity = new Intent(this, Unit03.class);
                 startActivity(activity);
                 break;
@@ -42,6 +42,10 @@ public class IndexActivity extends AppCompatActivity {
                 break;
             case "6. Form Entry":
                 activity = new Intent(this, Unit06.class);
+                startActivity(activity);
+                break;
+            case "7. List View [With Default Layout And Adaptor]":
+                activity = new Intent(this, Unit07.class);
                 startActivity(activity);
                 break;
             default:

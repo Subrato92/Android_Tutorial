@@ -12,21 +12,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/ch01"
-        android:onClick="toCourse"/>
+        android:onClick="toCourse"
+        android:drawableLeft="@drawable/one_1"/>
 
     <Button
         android:id="@+id/Unit_02"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/ch02"
-        android:onClick="toCourse"/>
+        android:onClick="toCourse"
+        android:drawableLeft="@drawable/two" />
 
     <Button
         android:id="@+id/Unit_03"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/ch03"
-        android:onClick="toCourse"/>
+        android:onClick="toCourse"
+        android:drawableLeft="@drawable/three"/>
 
     <Button
         android:id="@+id/Unit_04"
@@ -47,6 +50,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/ch06"
+        android:onClick="toCourse"/>
+
+    <Button
+        android:id="@+id/Unit_07"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ch07"
         android:onClick="toCourse"/>
 
 </LinearLayout>

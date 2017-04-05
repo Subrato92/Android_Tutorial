@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_unit07"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.androidtutorial.Unit07">
+
+    <TextView
+        android:id="@+id/unit07_title"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="@string/ch07"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/unit07_intro"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="@string/ch07_intro"
+        android:textSize="20sp"
+        android:layout_below="@id/unit07_title"/>
+
+    <ListView
+        android:id="@+id/unit07_algoTopics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/unit07_intro">
+    </ListView>
+
+</RelativeLayout>
