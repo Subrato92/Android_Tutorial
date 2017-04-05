@@ -40,6 +40,10 @@ public class IndexActivity extends AppCompatActivity {
                 activity = new Intent(this, Unit05.class);
                 startActivity(activity);
                 break;
+            case "6. Form Entry":
+                activity = new Intent(this, Unit06.class);
+                startActivity(activity);
+                break;
             default:
                 break;
         }

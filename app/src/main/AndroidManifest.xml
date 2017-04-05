@@ -19,7 +19,8 @@
         <activity android:name=".Unit02" />
         <activity android:name=".Unit03" />
         <activity android:name=".Unit04" />
-        <activity android:name=".Unit05"></activity>
+        <activity android:name=".Unit05" />
+        <activity android:name=".Unit06"></activity>
     </application>
 
 </manifest>

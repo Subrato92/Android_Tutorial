@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_unit06"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.androidtutorial.Unit06">
+
+    <TextView
+        android:id="@+id/unit06_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/ch06"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"/>
+    
+    <EditText
+        android:id="@+id/unit06_UsrName"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/unit06_title"
+        android:hint="@string/ch06_Et01"
+        android:layout_alignParentLeft="true"/>
+    
+    <EditText
+        android:id="@+id/unit06_usrTitle"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/unit06_UsrName"
+        android:layout_toRightOf="@id/unit06_UsrName"
+        android:layout_alignBaseline="@id/unit06_UsrName"
+        android:hint="@string/ch06_Et02"/>
+    
+    <EditText
+        android:id="@+id/unit06_age"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/unit06_UsrName"
+        android:hint="@string/ch06_Et03"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/unit06_sex"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/unit06_age"
+        android:layout_toEndOf="@id/unit06_age"
+        android:layout_toRightOf="@id/unit06_sex"
+        android:hint="@string/ch06_ACTV01"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/unit06_country"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/unit06_sex"
+        android:layout_toEndOf="@id/unit06_sex"
+        android:layout_toRightOf="@id/unit06_sex"
+        android:hint="@string/ch06_ACTV02"/>
+
+    <CheckedTextView
+        android:id="@+id/unit06_cbTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Have Experiance On"
+        android:textSize="18sp"
+        android:layout_below="@id/unit06_age"
+        android:gravity="center_vertical"
+        android:onClick="ut06_selection"/>
+
+    <CheckBox
+        android:id="@+id/unit06_cb01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ch06_cb01"
+        android:layout_below="@id/unit06_cbTitle"
+        android:onClick="ut06_selection"/>
+
+    <!-- android:onClick="ut06_submit" -->
+
+    <CheckBox
+        android:id="@+id/unit06_cb02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ch06_cb02"
+        android:layout_below="@id/unit06_cbTitle"
+        android:layout_toEndOf="@id/unit06_cb01"
+        android:layout_toRightOf="@id/unit06_cb01"
+        android:onClick="ut06_selection"/>
+
+    <CheckBox
+        android:id="@+id/unit06_cb03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ch06_cb03"
+        android:layout_below="@id/unit06_cbTitle"
+        android:layout_toEndOf="@id/unit06_cb02"
+        android:layout_toRightOf="@id/unit06_cb02"
+        android:onClick="ut06_selection"/>
+
+    <CheckBox
+        android:id="@+id/unit06_cb04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ch06_cb04"
+        android:layout_below="@id/unit06_cb01"
+        android:onClick="ut06_selection"/>
+
+    <Button
+        android:id="@+id/unit06_b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sbmt"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/unit06_cb04"
+        android:onClick="ut06_submit"/>
+
+    <TextView
+        android:id="@+id/unit06_tv_response"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_below="@id/unit06_b1"
+        android:textAlignment="center"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        android:hint="Your Response Here"/>
+    
+</RelativeLayout>

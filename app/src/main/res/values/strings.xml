@@ -14,4 +14,30 @@
     <string name="ch05_b1">BUTTON</string>
     <string name="ch05_b3">Click Me</string>
 
+    <string name="ch06">6. Form Entry</string>
+    <string name="ch06_Et01">Name</string>
+    <string name="ch06_Et02">Title</string>
+    <string name="ch06_Et03">Age</string>
+    <string name="ch06_ACTV01">Sex</string>
+    <string name="ch06_ACTV02">Country</string>
+    <string-array name="ch06_country">
+        <item>India</item>
+        <item>Pakistan</item>
+        <item>Bangladesh</item>
+        <item>China</item>
+        <item>Nepal</item>
+        <item>Bhutan</item>
+        <item>Sri Lanka</item>
+        <item>Afganishtan</item>
+        <item>Dubai</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Australia</item>
+        <item>America</item>
+    </string-array>
+    <string name="ch06_cb01">Algorithm</string>
+    <string name="ch06_cb02">Machine Learning</string>
+    <string name="ch06_cb03">Android</string>
+    <string name="ch06_cb04">Data Analytics</string>
+    <string name="sbmt">Submit</string>
 </resources>
