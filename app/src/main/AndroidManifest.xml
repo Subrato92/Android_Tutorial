@@ -22,7 +22,8 @@
         <activity android:name=".Unit05" />
         <activity android:name=".Unit06" />
         <activity android:name=".Unit07" />
-        <activity android:name=".Unit08"></activity>
+        <activity android:name=".Unit08" />
+        <activity android:name=".Unit09"></activity>
     </application>
 
 </manifest>

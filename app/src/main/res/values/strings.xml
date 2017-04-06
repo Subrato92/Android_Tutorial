@@ -46,4 +46,26 @@
 
     <string name="ch08">8. List View [Defined Layout And Default Adapter]</string>
 
+    <string name="ch09">9. Custom List view</string>
+    <string name="ch09_title"></string>
+    <string-array name="ch09_Chapters">
+        <item>Linked List</item>
+        <item>Stack</item>
+        <item>Queues</item>
+        <item>Trees</item>
+        <item>String Operation</item>
+        <item>Graphs</item>
+        <item>Hash Table</item>
+    </string-array>
+    <string-array name="ch09_problems">
+        <item>Problems:25</item>
+        <item>Problems:30</item>
+        <item>Problems:26</item>
+        <item>Problems:17</item>
+        <item>Problems:21</item>
+        <item>Problems:29</item>
+        <item>Problems:32</item>
+    </string-array>
+
+
 </resources>

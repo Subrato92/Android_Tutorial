@@ -52,6 +52,10 @@ public class IndexActivity extends AppCompatActivity {
                 activity = new Intent(this, Unit08.class);
                 startActivity(activity);
                 break;
+            case "9. Custom List view":
+                activity = new Intent(this, Unit09.class);
+                startActivity(activity);
+                break;
             default:
                 break;
         }
