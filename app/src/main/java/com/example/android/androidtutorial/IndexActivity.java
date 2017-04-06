@@ -44,8 +44,12 @@ public class IndexActivity extends AppCompatActivity {
                 activity = new Intent(this, Unit06.class);
                 startActivity(activity);
                 break;
-            case "7. List View [With Default Layout And Adaptor]":
+            case "7. List View [With Default Layout And Adapter]":
                 activity = new Intent(this, Unit07.class);
+                startActivity(activity);
+                break;
+            case "8. List View [Defined Layout And Default Adapter]":
+                activity = new Intent(this, Unit08.class);
                 startActivity(activity);
                 break;
             default:
