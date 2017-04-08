@@ -41,7 +41,7 @@
     <string name="ch06_cb04">Data Analytics</string>
     <string name="sbmt">Submit</string>
 
-    <string name="ch07">7. List View [With Default Layout And Adapter]</string>
+    <string name="ch07">7. List View [Default] with OPTIONS</string>
     <string name="ch07_intro">Below is the list of Algorithm topics >></string>
 
     <string name="ch08">8. List View [Defined Layout And Default Adapter]</string>
@@ -67,5 +67,13 @@
         <item>Problems:32</item>
     </string-array>
 
+    <string name="search">SEARCH</string>
+    <string name="share">SHARE</string>
+    <string name="help">HELP</string>
+    <string name="settings">SETTINGS</string>
+
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
+    <string name="green">Green</string>
 
 </resources>

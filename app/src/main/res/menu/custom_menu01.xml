@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/m01_search"
+        android:title="@string/search"
+        android:icon="@drawable/queue2"
+        app:showAsAction="ifRoom"></item>
+
+    <item android:id="@+id/m01_share"
+        android:title="@string/share"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/hash2"></item>
+</menu>
