@@ -56,6 +56,10 @@ public class IndexActivity extends AppCompatActivity {
                 activity = new Intent(this, Unit09.class);
                 startActivity(activity);
                 break;
+            case "10. Pop-Up Menu Demo":
+                activity = new Intent(this,Unit10.class);
+                startActivity(activity);
+                break;
             default:
                 break;
         }

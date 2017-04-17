@@ -23,7 +23,9 @@
         <activity android:name=".Unit06" />
         <activity android:name=".Unit07" />
         <activity android:name=".Unit08" />
-        <activity android:name=".Unit09"></activity>
+        <activity android:name=".Unit09" />
+        <activity android:name=".PopupMenu" />
+        <activity android:name=".Unit10"></activity>
     </application>
 
 </manifest>

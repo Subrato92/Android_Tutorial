@@ -67,6 +67,8 @@
         <item>Problems:32</item>
     </string-array>
 
+    <string name="ch10">10. Pop-Up Menu Demo</string>
+
     <string name="search">SEARCH</string>
     <string name="delete">DELETE</string>
     <string name="share">SHARE</string>
